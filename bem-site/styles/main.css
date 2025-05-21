@@ -1,0 +1,76 @@
+/* БЭМ-стили */
+.header {
+  background: #222;
+  color: white;
+  padding: 1rem;
+}
+
+.nav__link {
+  margin-right: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav__link--active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.screen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.screen__title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.screen__text {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-bottom: 1.5rem;
+}
+
+.screen__list {
+  list-style: none;
+  padding: 0;
+}
+
+.screen__list li {
+  margin-bottom: 0.5rem;
+}
+
+.screen__link {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.screen__link:hover {
+  text-decoration: underline;
+}
+
+.screen--one {
+  background: #f1f1f1;
+}
+
+.screen--two {
+  background: #ddd;
+}
+
+.screen--three {
+  background: #bbb;
+}
+
+.footer {
+  padding: 1rem;
+  text-align: center;
+  background: #222;
+  color: white;
+}
